@@ -108,7 +108,7 @@ while True: #Runs until user quits
         print("File Details:", m.from_file(UserInput)) # Uses python-magic to describe file
         print("File Type:", m_mime.from_file(UserInput)) # Shows MIME type, Example:(text/plain)
         file_hashsha256 = get_sha256(UserInput)
-        print(f"Hash: {file_hashsha256}")
+        print(f"SHA256 Hash: {file_hashsha256}")
         
 
     #Error handling
